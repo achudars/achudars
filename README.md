@@ -1,4 +1,4 @@
-# :small_blue_diamond: Hi, I'm Aleks :small_orange_diamond:
+# Hi, I'm Aleks 
 
 <img src="https://raw.githubusercontent.com/achudars/achudars/main/banner.png" alt="banner that says: `Aleksandrs Cudars. Hi, I'm Aleks! I like solving complex problems, and am of strong opinion that one must never stop learning!`" />
 
