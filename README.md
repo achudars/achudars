@@ -4,6 +4,6 @@
 
 I'm a software engineer and a full stack developer at Goldman Sachs
 
+<img src="http://cdn2.scratch.mit.edu/get_image/user/1459484_90x90.png?v=1404925199.58" alt="a pug running" width="100" />
 
-
-<img src="http://cdn2.scratch.mit.edu/get_image/user/1459484_90x90.png?v=1404925199.58" alt="a pug running" width="100" />see my website: https://alekscudars.com/
+see my website: https://alekscudars.com/
