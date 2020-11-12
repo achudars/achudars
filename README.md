@@ -2,4 +2,4 @@
 
 I'm a software engineer and a full stack developer at Goldman Sachs
 
-<img src="http://cdn2.scratch.mit.edu/get_image/user/1459484_90x90.png?v=1404925199.58" alt="a pug running" width="100" />
+<img src="https://64.media.tumblr.com/1a096cda697ae831490bae1c417d5647/tumblr_n27bd6r7nf1trn6kbo1_400.gif" alt="dogs running" />
