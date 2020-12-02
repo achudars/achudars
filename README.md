@@ -3,3 +3,5 @@
 I'm a software engineer and a full stack developer at Goldman Sachs
 
 <img src="https://64.media.tumblr.com/1a096cda697ae831490bae1c417d5647/tumblr_n27bd6r7nf1trn6kbo1_400.gif" alt="dogs running" />
+
+[![GitHub Stats of Aleks](https://github-readme-stats.vercel.app/api?username=achudars)](https://github.com/anuraghazra/github-readme-stats)
