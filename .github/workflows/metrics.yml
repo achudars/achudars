@@ -36,7 +36,7 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          filename: lines-of-code.svg
+          filename: lines.svg
           token: ${{ secrets.METRICS_TOKEN }}
 
           # Options
@@ -49,14 +49,14 @@ jobs:
           plugin_lines_repositories_limit: 4
           plugin_lines_sections: base
           
-  acti_comm:
+  activity_community_stats:
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          filename: acti_comm.svg
+          filename: activity_community_stats.svg
           token: ${{ secrets.METRICS_TOKEN }}
 
           # Options
@@ -65,14 +65,14 @@ jobs:
           base: activity, community
           config_timezone: Europe/London
           
-  iso_calendar:
+  isometric_calendar:
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          filename: iso_calendar.svg
+          filename: isometric_calendar.svg
           token: ${{ secrets.METRICS_TOKEN }}
 
           # Options
@@ -90,7 +90,7 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          filename: github-habits.svg
+          filename: habits.svg
           token: ${{ secrets.METRICS_TOKEN }}
 
           # Options
@@ -103,17 +103,17 @@ jobs:
           plugin_habits_days: 14
           plugin_habits_facts: yes
           plugin_habits_from: 200
-          plugin_habits_languages_limit: 8
+          plugin_habits_languages_limit: 18
           plugin_habits_languages_threshold: 0%
           
-  issue_pr_lang:
+  issues_pull_requests_languages:
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          filename: issue_pr_lang.svg
+          filename: issues_pull_requests_languages.svg
           token: ${{ secrets.METRICS_TOKEN }}
 
           # Options
@@ -123,6 +123,7 @@ jobs:
           config_timezone: Europe/London
           plugin_followup: yes
           plugin_languages: yes
+          plugin_languages_ignored: fortran, scheme, php
           
   repositories:
     runs-on: ubuntu-latest
