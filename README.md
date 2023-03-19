@@ -1,10 +1,5 @@
 <a href="https://github.com/achudars">
-  <img align="center" width="49%" src="./github-metrics.svg" />
-</a>
-
-<!--
-<a href="https://github.com/achudars">
-  <img align="center" width="49%" src="./header.svg" />
+  <img align="center" width="100%" src="./banner.png" />
 </a>
 <br/>
 <a href="https://github.com/achudars">
@@ -15,7 +10,7 @@
 </a>
 
 <a href="https://github.com/achudars">
-  <img align="center" width="49%" src="./iso_calender.svg" />
+  <img align="center" width="49%" src="./iso_calendar.svg" />
 </a>
 
 <a href="https://github.com/achudars">
@@ -28,4 +23,3 @@
 <a href="https://github.com/achudars">
     <img align="center" width="49%" src="./achievements.svg" />
 </a>
--->
