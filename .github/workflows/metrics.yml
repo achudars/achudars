@@ -1,8 +1,8 @@
 # Visit https://github.com/lowlighter/metrics#-documentation for full reference
 name: Metrics
 on:
-  # Schedule updates (every 666 minutes)
-  schedule: [{cron: "*/666 * * * *"}]
+  # Schedule updates (every 6666 minutes)
+  schedule: [{cron: "*/6666 * * * *"}]
   # Lines below let you run workflow manually and on each commit
   workflow_dispatch:
   push: {branches: ["master", "main"]}
