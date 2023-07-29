@@ -99,3 +99,36 @@ jobs:
           template: classic
           base: repositories
           config_timezone: Europe/London
+          
+  stackoverflow:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: stackoverflow.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+
+          # Options
+          user: achudars
+          template: classic
+          base: stackoverflow
+          config_timezone: Europe/London
+
+          
+  leetcode:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: leetcode.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+
+          # Options
+          user: achudars
+          template: classic
+          base: leetcode
+          config_timezone: Europe/London
