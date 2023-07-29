@@ -133,5 +133,6 @@ jobs:
           user: achudars
           base: ""
           config_timezone: Europe/London
+          plugin_leetcode_user: achudars
           plugin_leetcode: yes
           plugin_leetcode_sections: solved, skills, recent
