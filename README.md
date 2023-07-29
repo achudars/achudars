@@ -15,3 +15,10 @@
 <a href="https://github.com/achudars">
   <img align="center" width="49%" src="./habits.svg" alt="habits" />
 </a>
+<a href="https://github.com/achudars">
+  <img align="center" width="49%" src="./stackoverflow.svg" alt="stackoverflow" />
+</a>
+
+<a href="https://github.com/achudars">
+  <img align="center" width="49%" src="./leetcode.svg" alt="leetcode" />
+</a>
