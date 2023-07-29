@@ -112,11 +112,13 @@ jobs:
 
           # Options
           user: achudars
-          template: classic
-          base: stackoverflow
+          base: ""
           config_timezone: Europe/London
-
-          
+          plugin_stackoverflow: yes
+          plugin_stackoverflow_user: 1
+          plugin_stackoverflow_sections: answers-top
+          plugin_stackoverflow_limit: 2
+  
   leetcode:
     runs-on: ubuntu-latest
     permissions:
@@ -129,6 +131,7 @@ jobs:
 
           # Options
           user: achudars
-          template: classic
-          base: leetcode
+          base: ""
           config_timezone: Europe/London
+          plugin_leetcode: yes
+          plugin_leetcode_sections: solved, skills, recent
